@@ -19,3 +19,15 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+# Avoid Flutter create files:
+.DS_Store
+.atom/
+.idea
+.packages
+.pub/
+build/
+ios/.generated/
+packages
+pubspec.lock
+.flutter-plugins
